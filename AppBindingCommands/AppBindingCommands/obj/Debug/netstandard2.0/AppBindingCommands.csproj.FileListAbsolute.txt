@@ -1,0 +1,15 @@
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\bin\Debug\netstandard2.0\AppBindingCommands.deps.json
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\bin\Debug\netstandard2.0\AppBindingCommands.dll
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\bin\Debug\netstandard2.0\AppBindingCommands.pdb
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.csproj.AssemblyReference.cache
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.GeneratedMSBuildEditorConfig.editorconfig
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.AssemblyInfoInputs.cache
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.AssemblyInfo.cs
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.csproj.CoreCompileInputs.cache
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\XamlC.stamp
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.dll
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\refint\AppBindingCommands.dll
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.pdb
+D:\2022_2_DS_ALANA\Mobile\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\ref\AppBindingCommands.dll

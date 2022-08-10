@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBindingCommands.MainPage">
+
+    <StackLayout BackgroundColor="#F7F7F7">
+        <Frame BackgroundColor="#FF6F91" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label FontSize="16" Padding="30,24,30,0">
+           <!-- <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>-->
+        </Label> 
+
+        <Label x:Name="lblInformacoes" Text="" />
+        <Button x:Name="btnAtualizarInfo" Text="Atualizar Informações"
+                Clicked="btnAtualizarInfo_Clicked"
+                BackgroundColor="#AF2150"
+                TextColor="White"/>
+     
+        
+        <Entry Text="{Binding Name}" Placeholder="Enter Name" />
+        <Label Text="{Binding DisplayName}"/>
+
+
+        <Label Text="{Binding DisplayMessage}" HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        
+        <Button Command="{Binding ShowMessageCommand}" Text="Mensagem" />
+
+
+    </StackLayout>
+
+</ContentPage>
