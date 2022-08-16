@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:appbindingcommands="clr-namespace:AppBindingCommands" x:DataType="appbindingcommands:MainPageViewModel"
              x:Class="AppBindingCommands.MainPage">
 
     <StackLayout BackgroundColor="#F7F7F7">
         <Frame BackgroundColor="#FF6F91" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Label FontSize="16" Padding="30,24,30,0">
+        <Label FontSize="16" Padding="30,0,30,0">
            <!-- <Label.FormattedText>
                 <FormattedString>
                     <FormattedString.Spans>
@@ -21,8 +21,8 @@
         <Label x:Name="lblInformacoes" Text="" />
         <Button x:Name="btnAtualizarInfo" Text="Atualizar Informações"
                 Clicked="btnAtualizarInfo_Clicked"
-                BackgroundColor="#AF2150"
-                TextColor="White"/>
+                BackgroundColor="#FFE3EB"
+                TextColor="black"/>
      
         
         <Entry Text="{Binding Name}" Placeholder="Enter Name" />
@@ -31,10 +31,28 @@
 
         <Label Text="{Binding DisplayMessage}" HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"/>
-        
-        <Button Command="{Binding ShowMessageCommand}" Text="Mensagem" />
 
+        <Button Command="{Binding ShowMessageCommand}" Text="Mensagem"
+                BackgroundColor="#FF6F91"
+                 TextColor="White"
+                Margin="30,0"/> 
+
+        <Button Command="{Binding CountCommand}" Text="Contar caracteres" 
+                 BackgroundColor="#D74A70"
+                 TextColor="White"
+                Margin="30,0"/>
+        
+        <Button Command="{Binding CleanCommand}" Text="limpar Dados"
+                 BackgroundColor="#AF2150"
+                 TextColor="White"
+                  Margin="30,0"/>
+
+        <Button Command="{Binding OptionCommand}" Text="Exibir opção" 
+                  BackgroundColor="#880033"
+                 TextColor="White"
+                Margin="30,10"/>
 
     </StackLayout>
+  
 
 </ContentPage>
